@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3416DEE116D5F1DA0017141C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416DEE016D5F1DA0017141C /* MasterViewController.m */; };
+		3416DEE516D5F4450017141C /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416DEE316D5F4450017141C /* CentralViewController.m */; };
+		3416DEE616D5F4450017141C /* CentralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3416DEE416D5F4450017141C /* CentralViewController.xib */; };
+		3416DEEA16D5F4B50017141C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416DEE816D5F4B40017141C /* LeftViewController.m */; };
+		3416DEEB16D5F4B50017141C /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3416DEE916D5F4B40017141C /* LeftViewController.xib */; };
+		342671F316CE882600994966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342671F216CE882600994966 /* UIKit.framework */; };
+		342671F516CE882600994966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342671F416CE882600994966 /* Foundation.framework */; };
+		342671F716CE882600994966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342671F616CE882600994966 /* CoreGraphics.framework */; };
+		342671FD16CE882600994966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342671FB16CE882600994966 /* InfoPlist.strings */; };
+		342671FF16CE882600994966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342671FE16CE882600994966 /* main.m */; };
+		3426720316CE882600994966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426720216CE882600994966 /* AppDelegate.m */; };
+		3426720516CE882600994966 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3426720416CE882600994966 /* Default.png */; };
+		3426720716CE882600994966 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3426720616CE882600994966 /* Default@2x.png */; };
+		3426720916CE882600994966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3426720816CE882600994966 /* Default-568h@2x.png */; };
+		3426720C16CE882600994966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426720B16CE882600994966 /* ViewController.m */; };
+		3426720F16CE882600994966 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3426720D16CE882600994966 /* ViewController_iPhone.xib */; };
+		3426721216CE882600994966 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3426721016CE882600994966 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3416DEDF16D5F1DA0017141C /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3416DEE016D5F1DA0017141C /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3416DEE216D5F4450017141C /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		3416DEE316D5F4450017141C /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		3416DEE416D5F4450017141C /* CentralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentralViewController.xib; sourceTree = "<group>"; };
+		3416DEE716D5F4B40017141C /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		3416DEE816D5F4B40017141C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		3416DEE916D5F4B40017141C /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		342671EE16CE882600994966 /* HideawayMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideawayMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342671F216CE882600994966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		342671F416CE882600994966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		342671F616CE882600994966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		342671FA16CE882600994966 /* HideawayMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideawayMenu-Info.plist"; sourceTree = "<group>"; };
+		342671FC16CE882600994966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		342671FE16CE882600994966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3426720016CE882600994966 /* HideawayMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideawayMenu-Prefix.pch"; sourceTree = "<group>"; };
+		3426720116CE882600994966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HideawayMenu/AppDelegate.h; sourceTree = "<group>"; };
+		3426720216CE882600994966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HideawayMenu/AppDelegate.m; sourceTree = "<group>"; };
+		3426720416CE882600994966 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3426720616CE882600994966 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3426720816CE882600994966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3426720A16CE882600994966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HideawayMenu/ViewController.h; sourceTree = "<group>"; };
+		3426720B16CE882600994966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HideawayMenu/ViewController.m; sourceTree = "<group>"; };
+		3426720E16CE882600994966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3426721116CE882600994966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342671EB16CE882600994966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342671F316CE882600994966 /* UIKit.framework in Frameworks */,
+				342671F516CE882600994966 /* Foundation.framework in Frameworks */,
+				342671F716CE882600994966 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3416DEDE16D5F1AA0017141C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3426720116CE882600994966 /* AppDelegate.h */,
+				3426720216CE882600994966 /* AppDelegate.m */,
+				3426720A16CE882600994966 /* ViewController.h */,
+				3426720B16CE882600994966 /* ViewController.m */,
+				3426720D16CE882600994966 /* ViewController_iPhone.xib */,
+				3416DEE216D5F4450017141C /* CentralViewController.h */,
+				3416DEE316D5F4450017141C /* CentralViewController.m */,
+				3416DEE416D5F4450017141C /* CentralViewController.xib */,
+				3416DEE716D5F4B40017141C /* LeftViewController.h */,
+				3416DEE816D5F4B40017141C /* LeftViewController.m */,
+				3416DEE916D5F4B40017141C /* LeftViewController.xib */,
+				3426721016CE882600994966 /* ViewController_iPad.xib */,
+				342671F916CE882600994966 /* Supporting Files */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		342671E316CE882600994966 = {
+			isa = PBXGroup;
+			children = (
+				3416DEDE16D5F1AA0017141C /* Others */,
+				342671F816CE882600994966 /* HideawayMenu */,
+				342671F116CE882600994966 /* Frameworks */,
+				342671EF16CE882600994966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342671EF16CE882600994966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342671EE16CE882600994966 /* HideawayMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342671F116CE882600994966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342671F216CE882600994966 /* UIKit.framework */,
+				342671F416CE882600994966 /* Foundation.framework */,
+				342671F616CE882600994966 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342671F816CE882600994966 /* HideawayMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3416DEDF16D5F1DA0017141C /* MasterViewController.h */,
+				3416DEE016D5F1DA0017141C /* MasterViewController.m */,
+			);
+			path = HideawayMenu;
+			sourceTree = "<group>";
+		};
+		342671F916CE882600994966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342671FA16CE882600994966 /* HideawayMenu-Info.plist */,
+				342671FB16CE882600994966 /* InfoPlist.strings */,
+				342671FE16CE882600994966 /* main.m */,
+				3426720016CE882600994966 /* HideawayMenu-Prefix.pch */,
+				3426720416CE882600994966 /* Default.png */,
+				3426720616CE882600994966 /* Default@2x.png */,
+				3426720816CE882600994966 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = HideawayMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342671ED16CE882600994966 /* HideawayMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3426721516CE882600994966 /* Build configuration list for PBXNativeTarget "HideawayMenu" */;
+			buildPhases = (
+				342671EA16CE882600994966 /* Sources */,
+				342671EB16CE882600994966 /* Frameworks */,
+				342671EC16CE882600994966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideawayMenu;
+			productName = HideawayMenu;
+			productReference = 342671EE16CE882600994966 /* HideawayMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342671E516CE882600994966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Srikanth Sombhatla";
+			};
+			buildConfigurationList = 342671E816CE882600994966 /* Build configuration list for PBXProject "HideawayMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 342671E316CE882600994966;
+			productRefGroup = 342671EF16CE882600994966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342671ED16CE882600994966 /* HideawayMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342671EC16CE882600994966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342671FD16CE882600994966 /* InfoPlist.strings in Resources */,
+				3426720516CE882600994966 /* Default.png in Resources */,
+				3426720716CE882600994966 /* Default@2x.png in Resources */,
+				3426720916CE882600994966 /* Default-568h@2x.png in Resources */,
+				3426720F16CE882600994966 /* ViewController_iPhone.xib in Resources */,
+				3426721216CE882600994966 /* ViewController_iPad.xib in Resources */,
+				3416DEE616D5F4450017141C /* CentralViewController.xib in Resources */,
+				3416DEEB16D5F4B50017141C /* LeftViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342671EA16CE882600994966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342671FF16CE882600994966 /* main.m in Sources */,
+				3426720316CE882600994966 /* AppDelegate.m in Sources */,
+				3426720C16CE882600994966 /* ViewController.m in Sources */,
+				3416DEE116D5F1DA0017141C /* MasterViewController.m in Sources */,
+				3416DEE516D5F4450017141C /* CentralViewController.m in Sources */,
+				3416DEEA16D5F4B50017141C /* LeftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		342671FB16CE882600994966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342671FC16CE882600994966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3426720D16CE882600994966 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3426720E16CE882600994966 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			path = HideawayMenu;
+			sourceTree = "<group>";
+		};
+		3426721016CE882600994966 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3426721116CE882600994966 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			path = HideawayMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3426721316CE882600994966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3426721416CE882600994966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3426721616CE882600994966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideawayMenu/HideawayMenu-Prefix.pch";
+				INFOPLIST_FILE = "HideawayMenu/HideawayMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3426721716CE882600994966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideawayMenu/HideawayMenu-Prefix.pch";
+				INFOPLIST_FILE = "HideawayMenu/HideawayMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342671E816CE882600994966 /* Build configuration list for PBXProject "HideawayMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3426721316CE882600994966 /* Debug */,
+				3426721416CE882600994966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3426721516CE882600994966 /* Build configuration list for PBXNativeTarget "HideawayMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3426721616CE882600994966 /* Debug */,
+				3426721716CE882600994966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342671E516CE882600994966 /* Project object */;
+}
