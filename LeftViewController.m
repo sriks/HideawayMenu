@@ -7,6 +7,10 @@
 //
 
 #import "LeftViewController.h"
+#import "CentralViewController.h"
+#import "AppDelegate.h"
+
+static NSArray* names = nil;
 
 @interface LeftViewController ()
 
@@ -57,9 +61,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    static NSArray* names = nil;
-    if(!names)
+
+    if(!names) {
         names = @[@"Twitter",@"Facebook",@"Instagram",@"Google+",@"Gmail"];
+        [names retain];
+    }
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
@@ -113,6 +119,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"%s",__PRETTY_FUNCTION__);
+    
+    CentralViewController* nextController = [[[CentralViewController alloc] initWithNibName:@"CentralViewController" bundle:nil] autorelease];
+    nextController.title = [names objectAtIndex:indexPath.row];
+    // TODO: Use mediator to do this
+    AppDelegate* dlg = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    [dlg.navController pushViewController:nextController animated:YES];
+
     // Navigation logic may go here. Create and push another view controller.
     /*
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];

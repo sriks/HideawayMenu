@@ -16,4 +16,6 @@
 
 @property (strong, nonatomic) ViewController *viewController;
 
+@property (nonatomic, assign, readwrite) UINavigationController* navController;
+
 @end
