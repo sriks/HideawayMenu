@@ -28,6 +28,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSLog(@"%s %@ navitem %@ and navbar is%@ ",__PRETTY_FUNCTION__, self, self.navigationItem,    self.navigationController.navigationBar);
+    
+
 }
 
 - (void)didReceiveMemoryWarning
